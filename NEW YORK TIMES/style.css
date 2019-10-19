@@ -1,0 +1,619 @@
+* {
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font-family: chomsky,sans-serif;
+  font-size: 12px;
+}
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  margin:0 10% 0 10%;
+  height: 100vh;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*
+=====================
+End of reset
+=====================
+ */
+
+header {
+  width: 100%;
+	border: 1px solid transparent;
+	display: inline-block;
+	margin-top: 1%;
+	clear: both;
+}
+
+.firstLeftTopHeader {
+    width: 50%;
+  	float: left;
+  	display: block;
+  }
+/* can only be used when you have display flex
+and align items lets us display items veritcally
+but it only works for the direct child */
+
+/* background color was made so that we can tell
+that left and right header was working you can
+always delete it i did delete it but
+i had backgroun-color's picked for both left and right
+header */
+
+/*
+====================
+1st Container
+===================
+ */
+.firstRightHeader {
+  /* height: 100%; */
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+.enterInfo {
+  margin-right: 5%;
+  color: white;
+  background-color: rgb(144, 171, 191);
+  border-radius: 12%;
+  padding: 1%
+}
+
+.firstContainer {
+  border-bottom: 2px solid transparent;
+}
+.firstContainer ul{
+  float:left;
+  width:100%;
+  padding-left: 13%;
+
+}
+.firstContainer h1 {
+  border-top: 1px solid lightgrey;
+}
+
+.firstContainer>ul>li{
+  margin-left: 2%;
+  font-size: 1.5rem;
+}
+.firstContainer ul li img {
+  width:10%;
+}
+
+.firstContainer img {
+  height: 5%;
+  width: 4%;
+}
+.underLogo>li{
+  padding: 0 2% 0 0;
+  /* border-right: 3px solid grey; */
+  float: left;
+}
+/*
+============================
+navigation
+===========================
+ */
+.navSection{
+  /* height: 40px; */
+}
+.navSection ul li {
+  float: left;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 0.875em;
+  padding-top: 0.813em;
+  padding-left: 0.438em;
+
+}
+.navSection ul li a {
+  padding-right: 0.813em;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+#noPadding  {
+  padding-left: 40.3%;
+}
+/*
+====================
+Main/2nd SECTION
+===================
+ */
+ .sections {
+   margin-right: 3%;
+ }
+
+.leftSection {
+  border: 2px solid transparent;
+  width: 20%;
+  float: left;
+}
+
+.middle, .rightSection {
+  border: 2px solid transparent;
+  width: 40%;
+  float:left;
+
+}
+
+.leftBox , .rightBox {
+  border-bottom: 4px solid lightgrey;
+  Width: 50%;
+  float:left;
+  margin-bottom: 1.188em;
+}
+
+h1 .logo {
+  /* height: 100%; */
+  Width: 44.333%;
+  margin-left: 20%;
+  margin-top: 1%;
+  margin-bottom: -1%;
+}
+
+.underLogo {
+	margin-top: 1%;
+	border-bottom: 3px solid black;
+	padding-bottom: 2%;
+	padding-left: 17%;
+}
+ .inform ul li {
+	margin-left: .5%;
+	float: left;
+}
+/* .inform li{
+  height: 5px;
+  width:3%;
+} */
+.button {
+  margin-left: 26%;
+  margin-right: -26%;
+  font-size: 1rem;
+  float: left;
+}
+.leftSection h3 {
+  font-weight: bold;
+  padding-top: 0.688em;
+  text-decoration: underline;
+  text-decoration-color: lightgrey;
+  font-size: 1rem;
+}
+.leftSection h2 ,
+.middle h3{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-bottom: 0.200em;
+  padding-top: 0.750em;
+}
+.leftSection h4 {
+  font-weight: lighter;
+  color: grey;
+  font-size: 1rem;
+  padding-bottom: 0.375em;
+}
+.authorsRed {
+  font-size: 1rem;
+  color: red;
+  font-weight: bold;
+}
+.leftSideList {
+    list-style-type: circle;
+    outline-color: black;
+    margin-left: 1.250em;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+article > h4 {
+  font-size: 1em;
+  padding-top: 0.750em;
+  padding-bottom: 0;
+  color: black;
+}
+
+article > p {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: grey;
+}
+.smaller ,
+.middle ,
+ .middleParagraph {
+  font-size: 1.02rem;
+  font-weight: bold;
+  padding-top: 0.625em;
+}
+
+
+iframe {
+  padding-top: 0.563em;
+  Width: 100%;
+}
+.middleSection .grey {
+  font-size: 0.8rem;
+  color: lightgrey;
+  padding-left: 1.563em;
+}
+.navSectwo ul li a {
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-size: 1.08rem;
+  padding-left: 0.438em;
+  font-weight: bold;
+  border-left: 2px solid pink;
+  margin-bottom: 1.063em;
+}
+
+.BottomMiddleSec img {
+  width: 37%;
+  float: right;
+  margin-right: 0.235em;
+}
+
+
+.middleSection p {
+    padding-top: 0.235em;
+    font-weight: lighter;
+    line-height: 1.000em;
+    padding-bottom: 0.750em;
+}
+
+.BottomMiddleSec h4 {
+  font-size: 1rem;
+  font-size: 1.9rem;
+  clear: both;
+  padding-bottom: 0.375em;
+}
+
+.BottomMiddleSec > p {
+  font-weight: lighter;
+    color: grey;
+    font-size: 0.625em;
+    font-size: 1rem;
+}
+.BottomMiddleSec h6 {
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.000em;
+  margin-top: 0.375em;
+  width: 63%;
+}
+
+.comments {
+  color: blue;
+}
+
+.leftBox h4 a {
+  float: left;
+  font-weight: bold;
+  font-size: 1.50rem;
+  padding-top: 4%;
+}
+
+.leftBox p {
+  float: left;
+  clear: both;
+  width: 45%;
+  font-size: 1.50rem;
+
+}
+.obama {
+  float:left;
+  height: 20%;
+  width: 44%;
+  margin-bottom: 1.500em;
+}
+
+.OpinionPg {
+  font-weight: bold;
+  float: left;
+  padding-left: 9.167em;
+  font-size: 1.1rem;
+  padding-top: 0.563em;
+  padding-bottom: 0.375em;
+
+}
+
+.manchurian {
+  float:left;
+  height: 28%;
+  width: 22%;
+  margin-left: 2.5em;
+  margin-top: 2em;
+}
+
+.leftBoxbottom h4 a {
+  float: left;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 1.75em;
+  line-height: 0.813em;
+  margin-left: -1%;
+  padding-left: 0.308em;
+}
+
+.leftBoxbottom p {
+  float: left;
+  clear: both;
+  width: 45%;
+  font-size: 1.06rem;
+  line-height: 0.813em;
+  padding-top: 0.308em;
+  padding-left: 0.308em;
+}
+
+.leftBoxbottom > #placed {
+  padding-right: 0.154em;
+}
+
+.rightBox h4 a {
+  float: left;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 2.375em;
+}
+
+.rightBox p{
+  width: 60%;
+  font-size: 1rem;
+  padding-bottom: 0.688em;
+  float: left;
+}
+
+.rightBox span {
+  font-size: 0.8rem;
+  color: grey;
+  clear: both;
+  float: left;
+  font-weight: bold;
+  padding-top: 1.125em;
+}
+.rightBox h6 a {
+  float: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 1.6em;
+}
+
+.socialMedia {
+  width: 40%;
+  float: right;
+
+}
+.cop {
+  width: 40%;
+  float: right;
+}
+.timesInsider {
+  border: 2px solid transparent;
+  float: left;
+  width: 50%;
+}
+
+.timesInsider span {
+  font-size: 1.08rem;
+}
+
+.timesInsider p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-right: 1px solid lightgrey;
+}
+/* }
+.timesInsider img {
+    width: 11%; */
+
+
+.crossword {
+  border: 2px solid transparent;
+  width: 50%;
+  float: left;
+  /* height: 64px; */
+}
+.crossword img {
+  width: 30%;
+  float: left;
+  padding-left:0.938em;
+}
+.crossword span {
+  font-size: 1.05rem;
+  float: left;
+}
+.crossword p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  float: left;
+}
+.hyolith {
+  border-top: 2px solid lightgrey;
+  /* border-bottom: 2px solid lightgrey; */
+  /* height: 104px; */
+  width: 100%;
+  float: left;
+  margin-top: 2.067em;
+}
+
+.hyolith img {
+  width: 19%;
+  float: left;
+  padding-top: 1.250em;
+}
+.hyolith p {
+  float: left;
+  width: 76%;
+  padding-left: 2.150em;
+  padding-top: 1.250em;
+  font-size: 1.18rem;
+}
+
+.hyolith span {
+  font-weight: bold;
+}
+.sitting {
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  height: 6.750em;
+  width: 100%;
+  float: left;
+  margin-top: 1.550em;
+}
+
+.sitting img {
+  width: 19%;
+  float: left;
+  padding-top: 1.250em;
+}
+.sitting p {
+  float: left;
+  width: 76%;
+  padding-left: 2.150em;
+  padding-top: 1.250em;
+  font-size: 1.18rem;
+}
+
+.sitting span {
+  font-weight: bold;
+}
+
+/*
+======================
+Media Queries
+======================
+
+ */
+@media only screen and (min-width:1316px){
+  .fas {
+     font-weight: 900;
+     display: none;
+  }
+}
+ @media only screen and (max-width:1315px) {
+
+ .rightSection {
+    border: 2px solid transparent;
+    width: 100%;
+    float: left;
+}
+.middle{
+  width:100%;
+}
+
+ @media only screen and (max-width:1280px) {
+ .leftSection {
+    border: 2px solid transparent;
+    width: 100%;
+    float:left;
+    display: block;
+}
+  .underLogo{
+  margin-top: 1%;
+  border-bottom: 3px solid black;
+  padding-bottom: 2%;
+  display: none;
+}
+.navSection ul li{
+float: left;
+border-bottom: 1px solid lightgrey;
+padding-bottom: 0.875em;
+padding-top: 0.813em;
+padding-left: 0.438em;
+display: none;
+}
+.middle{
+  width:100%;
+}
+.leftBox,
+.rightBox{
+  border-bottom: 4px solid lightgrey;
+  width: 100%;
+  float: left;
+  margin-bottom: 1.188em;
+  display: block;
+}
+@media only screen and (max-width:768px){
+    .underLogo{
+    margin-top: 1%;
+    border-bottom: 3px solid black;
+    padding-bottom: 2%;
+    display: none;
+}
+.navSection ul li{
+float: left;
+border-bottom: 1px solid lightgrey;
+padding-bottom: 0.875em;
+padding-top: 0.813em;
+padding-left: 0.438em;
+display: none;
+}
+.middle{
+  width:100%;
+}
+header {
+    width: 100%;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin-top: 1%;
+    clear: both;
+    display: none;
+}
+.firstContainer ul {
+    float: left;
+    width: 100%;
+    padding-left: 13%;
+    display: none;
+  }
+
+}

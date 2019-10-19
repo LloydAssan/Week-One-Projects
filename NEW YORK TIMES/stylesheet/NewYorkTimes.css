@@ -1,0 +1,488 @@
+* {
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font-family: chomsky,sans-serif;
+  font-size: 12px;
+}
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  margin:0 10% 0 10%;
+  height: 100vh;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+header {
+  width: 100%;
+	border: 1px solid transparent;
+	display: inline-block;
+	margin-top: 1%;
+	clear: both;
+}
+
+.topLeftSec {
+	float: left;
+	display: block;
+  width: 50%;
+  }
+
+.topRightSec {
+  width: 50%;
+	text-align: right;
+  display: inline-block;
+}
+
+.subscribe {
+  color: white;
+  background-color: rgb(144, 171, 191);
+	padding: 1%
+  border-radius: 12%;
+}
+
+.logoSec {
+  border-bottom: 2px solid transparent;
+}
+
+.logoSec ul{
+	width: 100%;
+	float: left;
+	padding-left: 254px;
+}
+
+.logoSec h1 {
+  border-top: 1px solid lightgrey;
+}
+
+.logoSec img {
+	height: 5%;
+	width: 46%;
+	margin-left: 278px;
+}
+
+.logoSec > ul > li{
+	font-size: 15px;
+	margin-left: 36px;
+	margin-left: 2px;
+	font-weight: 100;
+	font-style: normal;
+	font-family: inherit;
+}
+
+.logoSec ul li img {
+  width:10%;
+}
+
+
+.belowLogoSec>li{
+  padding: 0 2% 0 0;
+  float: left;
+}
+
+.navSec ul li a {
+	padding-right: 16px;
+	    font-size: 13px;
+	    font-weight: 600;
+}
+
+.navSec ul li {
+	float: left;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	padding-left: 1px;
+	border-bottom: 1px solid lightgrey;
+}
+
+
+
+.sections {
+   margin-right: 3%;
+ }
+
+.leftSec {
+  border: 2px solid transparent;
+  width: 20%;
+  float: left;
+}
+
+.mid, .rightSection {
+  border: 2px solid transparent;
+  width: 40%;
+  float:left;
+
+}
+
+.leftBox , .rightBox {
+	Width: 50%;
+	float: left;
+	border-bottom: 2px solid lightgrey;
+	margin-bottom: 1px;
+}
+
+h1 .logo {
+  Width: 44.333%;
+  margin-left: 20%;
+  margin-top: 1%;
+  margin-bottom: -1%;
+}
+
+.belowLogoSec{
+	margin-top: 1%;
+	border-bottom: 3px solid black;
+	padding-bottom: 2%;
+	padding-left: 17%;
+}
+ .underTimes ul li {
+	margin-left: .5%;
+	float: left;
+}
+
+.leftSec h3 {
+  font-weight: bold;
+  padding-top: 0.688em;
+  text-decoration: underline;
+  text-decoration-color: lightgrey;
+  font-size: 1rem;
+}
+.leftSec h2 ,.mid h3{
+	font-style: initial;
+	font-weight: bold;
+	padding-bottom: -2px;
+	padding-top: 11px;
+	font-size: 19px;
+
+}
+.leftSec h4 {
+	font-weight: lighter;
+	color: grey;
+	font-size: 14px;
+	padding-bottom: 26px;
+}
+
+
+.leftSecOneList {
+	margin-left: 1px;
+	font-size: 16px;
+	line-height: 20px;
+	list-style-type: disc;
+	outline-color: black;
+}
+
+article > h4 {
+padding-top: 1px
+}
+
+article > p {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: grey;
+}
+.vlad ,.mid ,.kMoments {
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 12px;
+}
+
+.midSecTop img{
+	float: right;
+	width: 100%;
+	height: 192px;
+}
+
+.midSecTop p {
+	padding-top: 24px;
+	font-weight: lighter;
+	font-size: 15px;
+	width: 87%;
+}
+
+.grey{
+	float: left;
+	color: grey;
+}
+
+.midSecTop .grey {
+	color: lightgrey;
+	padding-left: 54px;
+	font-size: 10px;
+}
+
+.navSectwo ul li a {
+	float: left;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 100;
+	padding-left: 1px;
+	font-weight: bold;
+	border-left: 1px solid lightgrey;
+	margin-bottom: 7px;
+}
+
+.midSecBtm img {
+	width: 19%;
+	float: right;
+	margin-right: 5px;
+}
+
+
+.midSecBtm h4 {
+	font-size: 18px;
+	font-family: initial;
+	font-style: normal;
+	padding-bottom: 5px;
+	clear: both;
+}
+
+.midSecBtm > p {
+	font-weight: lighter;
+	color: lightgrey;
+	font-size: 13px;
+}
+
+
+
+.leftBox h4 a {
+	float: left;
+	font-weight: bold;
+	font-size: 19px;
+	padding-top: 4%;
+	font-family: auto;
+}
+
+.leftBox p {
+	float: left;
+	font-size: 18px;
+	clear: both;
+	width: 54%;
+}
+
+.obama {
+	 width: 44%;
+	 float: left;
+ 	 height: 20%;
+	 margin-bottom: 15px;
+}
+
+.OpPage {
+	font-weight: bold;
+	float: left;
+	padding-left: 163px;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 1px;
+	font-family: auto;
+}
+
+.manchurian {
+	float: left;
+	margin-left: 22px;
+	margin-top: 9px;
+	height: 58px;
+	width: 43%;
+}
+
+.leftBoxbtm h4 a {
+	float: left;
+	font-weight: bold;
+	font-size: 19px;
+	padding-top: 4%;
+	font-family: auto;
+}
+
+.leftBoxbtm p {
+	float: left;
+	clear: both;
+	width: 45%;
+	font-size: 14px;
+	line-height: 13px;
+	padding-top: 10px;
+  padding-left: 1px;
+}
+
+.rightBox h4 a {
+	float: left;
+	font-weight: bold;
+	font-size: 19px;
+	padding-top: 4%;
+	font-family: auto;
+}
+
+.rightBox p{
+	float: left;
+	font-size: 18px;
+	clear: both;
+	width: 69%;
+}
+
+.rightBox span {
+	color: darkgray;
+	clear: both;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 14px;
+}
+
+.rightBox h6 a {
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 16px;
+}
+
+.rightBox img{
+	width: 35%;
+	float: right;
+	margin-right: -2px;
+	margin-top: -68px;
+}
+
+
+}
+.popo {
+  width: 40%;
+  float: right;
+}
+.insider {
+  border: 2px solid transparent;
+  float: left;
+  width: 50%;
+}
+
+.insider span {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.insider p {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+.crossword {
+  border: 2px solid transparent;
+  width: 50%;
+  float: left;
+}
+.crossword img {
+	float: left;
+	padding-left: 38px;
+	width: 30%;
+}
+.crossword span {
+  font-size: 12px;
+  float: left;
+}
+.crossword p {
+  font-size: 11px;
+  font-weight: bold;
+  float: left;
+}
+.hyolith {
+  border-top: 2px solid lightgrey;
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+}
+
+.hyolith img {
+  width: 19%;
+  float: left;
+  padding-top: 12px;
+}
+.hyolith p {
+	float: left;
+	width: 76%;
+	padding-left: 1px;
+	font-size: 15px;
+}
+
+.hyolith span {
+  font-weight: bold;
+}
+.sitting {
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  height: 60px;
+  width: 100%;
+  float: left;
+  margin-top: 15px;
+}
+
+.sitting img {
+  width: 19%;
+  float: left;
+  padding-top: 12px;
+}
+.sitting p {
+  float: left;
+  width: 76%;
+  padding-left: 21px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.sitting span {
+  font-weight: bold;
+}
+
+.orchestra img{
+	width: 19%;
+  float: right;
+  padding-top: 11px;
+  height: 35px;
+}

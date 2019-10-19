@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 53px;
+  border: 1px solid black;
+  clear: both;
+  background-color: black;
+}
+
+header img, header a, header li{
+  float: left;
+  width: 17%;
+  color: white;
+  height: 51px;
+  font-family: sans-serif;
+  padding-left: 29px;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+.backimage{
+  background-image: url(Ellen-Pao.jpg);
+  height: 600px;
+  position: relative;
+  background-position: center;
+}
+
+.backimage h3{
+  border: 1px solid black;
+  height: 140px;
+  width: 45%;
+  background-color: ghostwhite;
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+  font-size: 43px;
+  padding-left: 44px;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+.vampire{
+  float: right;
+  font-family: sans-serif;
+  width: 30%;
+  padding-right: 54px;
+  display: inline-block;
+  margin-right: 41%;
+  margin-top: 0.5%;
+}
+
+section img{
+  width: 28%;
+  padding-top: 27px;
+  padding-left: 100px;
+}
